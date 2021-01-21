@@ -4,7 +4,7 @@ import sqlite3,json
 class jsonExam:
     def __init__(self):
         self.my_json = {'veriler': []}
-        self.connection = sqlite3.connect('D:\Projeler\Python Dersleri\Python Dersleri Tekrar\database.db')
+        self.connection = sqlite3.connect('sqlite_veritabani_yolu')
         self.cursor = self.connection.cursor()
 
     def getData(self):
